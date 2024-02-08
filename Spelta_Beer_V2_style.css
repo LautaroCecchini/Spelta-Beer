@@ -1,0 +1,270 @@
+@font-face {
+	font-family: "kaushan";
+	src: url("fonts/kaushan.otf");
+}
+
+body {
+	background-color: #624E43;
+	background-image: url('images/Wood_Background_2.gif');
+	font-family: helvetica, arial, sans-serif;
+	text-align: center;
+}
+
+h1 {
+	font-family: "kaushan", arial, sans-serif;
+	font-size: 80px;
+	color: white;
+	opacity: 0.9;
+}
+
+/*Header*/
+
+header {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+p, td {
+	color: white;
+}
+
+div {
+	text-align: center;
+	margin: 3em 20em;
+	padding: 0.5em 1em;
+}
+
+table {
+	border-collapse: collapse;
+	position: relative;
+	left: 39px;
+	bottom: 50px;
+}
+
+td {
+	padding: 0px 3px;
+	border: solid;
+	border-width: 2px;
+	width: 7em;
+}
+
+td p {
+	display: inline;
+	font-weight: bold;
+}
+
+.dark-text {
+	color: black;
+}
+
+.dark-text-alt {
+	color: #D6C268
+}
+
+.label {
+	margin-top: -50px:
+}
+
+.datacell_alt {
+	width: 9em;
+	padding: 1em;
+}
+
+.beer {
+	width: 700px;
+	height: 70px;
+	padding-top: -100px;
+	box-shadow: 0 0 40px 0 black;
+}
+
+.subtitle {
+	font-family: monospace;
+	font-weight: 1000;
+	font-size: 15px;
+	letter-spacing: 2px;
+	position: relative;
+	bottom: 75px;
+	left: 37px;
+}
+
+.subtitle2 {
+	font-family: sans-serif;
+	text-transform: uppercase;
+	font-size: 20px;
+	font-weight: 700;
+	letter-spacing: 1px;
+	position: relative;
+	bottom: 65px;
+	left: 37px;
+}
+
+.subtitle3 {
+	font-family: sans-serif;
+	font-stretch: condensed;
+	font-size: 20px;
+	font-weight: 600;
+	text-transform: uppercase;
+	bottom: 65px;
+	left: 37px;
+	position: relative;
+}
+
+.subtitle, .subtitle2, .subtitle3 {
+	margin: 0;
+	text-align: left;
+}
+
+#rubia {
+	background-color: #D4C85B;
+	padding: 5em 1em;
+}
+
+#rubia .beer-name {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-top: -40px
+}
+
+#rubia #icon1 {
+	position: relative;
+	right: 27px
+}
+}
+
+#rubia #info1 {
+	margin-right: 10px;
+	margin-top: 2px;
+}
+
+#rubia #icon2 {
+	position: relative;
+	left: 8px;
+}
+
+#rubia #info2 {
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#roja {
+	background-color: #CC3C32;
+	padding: 5em 1em;
+}
+
+#roja .beer-name {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-top: -85px;
+}
+
+#roja #icon1 {
+	position: relative;
+	right: 23px;
+}
+
+#roja #icon2 {
+	position: relative;
+	left: 15px;
+}
+
+#roja #info2 {
+	position: relative;
+	left: 10px;
+}
+
+#ipa {
+	background-color: #9CCC65;
+	padding: 5em 1em;
+}
+
+#ipa .beer-name {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-top: -85px;
+	margin-left: -10px;
+	margin-right: 10px;
+}
+
+#ipa #icon1 {
+	position: relative;
+	right: 23px
+}
+
+
+#ipa #info1 {
+	position: relative;
+	right: 12px;
+}
+
+#ipa #icon2 {
+	position: relative;
+	left: 12px;
+}
+
+#ipa #info2 {
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#negra {
+	background-color: #6D2A16;
+	padding: 5em 1em;
+}
+
+#negra .beer-name {
+	width: 50%;
+	height: 50%;
+	float: left;
+	margin-top: -85px;
+}
+
+#negra #icon1 {
+	position: relative;
+	right: 18px
+}
+
+
+#negra #info1 {
+	position: relative;
+	right: 2px;
+}
+
+#negra #icon2 {
+	position: relative;
+	left: 12px;
+}
+
+#negra #info2 {
+	margin-left: 10px;
+	margin-top: 2px;
+}
+
+#rubia, #roja, #ipa, #negra {
+	border: #E3B5A7 5px solid;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/*Footer*/
+
+footer {
+	margin-top: 100px;
+	margin-bottom: 100px;
+}
+
+#logo img {
+	-webkit-transition: .5s;
+	transition: .5s;
+	width: 250px;
+	border: #6D2A16 solid;
+	max-width: 300px;
+	opacity: .7;
+}
+
+#logo img:hover {
+	opacity: 1;
+	box-shadow: 0 0 100px 5px rgba(255,255,255,.5);
+}
